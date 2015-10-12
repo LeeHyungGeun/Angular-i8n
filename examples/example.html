@@ -1,0 +1,15 @@
+<!DOCTYPE>
+<html ng-app="exampleModule">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>i8n</title>
+  <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="../src/angular.i8n.filter.js"></script>
+  <script type="text/javascript" src="example.controller.js"></script>
+</head>
+<body ng-controller="exampleController">
+  <span>{{ 'title' | i8n }}</span>
+  <span>{{ 'description' | i8n }}</span>
+  <span>{{ 'parameter' | i8n }}</span>
+</body>
+</html>
